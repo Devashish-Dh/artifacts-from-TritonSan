@@ -1,0 +1,22 @@
+# FlagGems test whitelist
+# Format: test_file.py::test_function
+test_general_reduction_ops.py::test_accuracy_sum_without_dim
+test_general_reduction_ops.py::test_accuracy_mean_without_dim
+test_reduction_ops.py::test_accuracy_count_nonzero
+test_reduction_ops.py::test_accuracy_amax
+test_reduction_ops.py::test_accuracy_cumsum
+test_reduction_ops.py::test_accuracy_log_softmax
+test_norm_ops.py::test_accuracy_skip_rmsnorm
+test_norm_ops.py::test_accuracy_skip_layernorm
+test_norm_ops.py::test_accuracy_rmsnorm
+test_norm_ops.py::test_accuracy_layernorm
+test_norm_ops.py::test_accuracy_instancenorm
+test_unary_pointwise_ops.py::test_accuracy_triu
+test_unary_pointwise_ops.py::test_accuracy_tile
+test_unary_pointwise_ops.py::test_accuracy_repeat
+test_blas_ops.py::test_accuracy_mm
+test_blas_ops.py::test_accuracy_addmm
+test_blas_ops.py::test_accuracy_mv
+test_tensor_constructor_ops.py::test_accuracy_full
+test_tensor_constructor_ops.py::test_accuracy_full_like
+test_tensor_constructor_ops.py::test_accuracy_ones
